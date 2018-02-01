@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="AGLTest.UI.ShowListPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AGLTest.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		
+		<StackPanel Orientation="Vertical">
+			<TextBlock x:Name="PageTitle" FontSize="20"/>
+			
+			<ListView
+				x:Name="FemalePets"
+				Header="Females"
+				Margin="5,10,0,0">
+				
+			</ListView>
+
+			<ListView
+				x:Name="MalePets"
+				Header="Males"
+				Margin="5,30,0,0">
+
+			</ListView>
+		</StackPanel>
+	</Grid>
+</Page>
