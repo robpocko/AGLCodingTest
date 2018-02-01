@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLTest.HttpConnect", "AGLT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGLTest.UnitTests", "AGLTest.UnitTests\AGLTest.UnitTests.csproj", "{29B03BAD-BD60-4685-ACE5-A7BE125755C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGLTest.BusFacade", "AGLTest.BusFacade\AGLTest.BusFacade.csproj", "{E18AA224-35FC-440D-A56E-9DC6D3B1BD02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGLTest.BusFacade", "AGLTest.BusFacade\AGLTest.BusFacade.csproj", "{E18AA224-35FC-440D-A56E-9DC6D3B1BD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|ARM.ActiveCfg = Debug|ARM
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|ARM.Build.0 = Debug|ARM
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -36,6 +37,7 @@ Global
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|x86.Build.0 = Debug|x86
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Debug|x86.Deploy.0 = Debug|x86
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Release|Any CPU.ActiveCfg = Release|x86
+		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Release|Any CPU.Deploy.0 = Release|x86
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Release|ARM.ActiveCfg = Release|ARM
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Release|ARM.Build.0 = Release|ARM
 		{47DEDD7E-71E2-4812-91DE-FE4376232137}.Release|ARM.Deploy.0 = Release|ARM
